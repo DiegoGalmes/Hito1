@@ -1,0 +1,54 @@
+title: "Análisis de la Opción SMMT Oct 2024 12.000 call"
+author: "Diego Galmes"
+date: "27 de Septiembre de 2024"
+format: pdf
+editor: visual
+---
+
+# Índice
+1. [Sector/Temática](#sector-tematica)  
+2. [Motivación](#motivacion)  
+3. [Contexto](#contexto)  
+4. [Derivados](#derivados)  
+5. [Resultados y Conclusiones](#resultados-y-conclusiones)  
+6. [Bibliografía](#bibliografia)
+
+# Sector/Temática {#sector-tematica}
+Summit Therapeutics Inc., como parte del sector biotecnológico, está enfocada en el desarrollo de tratamientos para infecciones bacterianas resistentes y enfermedades genéticas raras. La biotecnología es un sector que depende enormemente de la innovación científica y las aprobaciones regulatorias, lo que provoca que las empresas en este sector, como Summit, presenten una alta volatilidad en sus acciones. Las decisiones de agencias regulatorias como la FDA pueden impactar drásticamente el valor de las acciones de estas empresas.
+
+En los últimos años, el sector ha visto un crecimiento significativo debido al aumento de infecciones resistentes a los medicamentos y la urgencia de desarrollar nuevos antibióticos. Summit se encuentra en una posición estratégica para capitalizar este crecimiento con sus avances en investigación y desarrollo. Además, el sector biotecnológico ha sido impulsado por mayores inversiones en investigación médica, lo que ha captado la atención de inversores interesados en aprovechar este crecimiento mediante la compra de opciones de compra de acciones.
+
+# Motivación {#motivacion}
+Se ha seleccionado la opción SMMT Oct 2024 12.000 call debido a la creciente relevancia del desarrollo de tratamientos para infecciones bacterianas resistentes a medicamentos. A medida que los sistemas de salud luchan por encontrar soluciones a este problema, las investigaciones de Summit Therapeutics han ganado tracción, lo que a su vez ha generado expectativas de un aumento en el valor de sus acciones. La elección de esta opción está motivada por el potencial de beneficios significativos si las acciones de Summit superan el precio de ejercicio de $12.
+
+El mercado de la biotecnología, conocido por su volatilidad, presenta una oportunidad interesante para aquellos inversores que buscan obtener rendimientos al aprovechar el crecimiento en áreas críticas de la salud pública.
+
+# Contexto {#contexto}
+Para evaluar correctamente la opción call SMMT Oct 2024 12.000, es necesario analizar tres factores clave:
+
+1. **Precio de la acción de Summit Therapeutics (SMMT)**  
+   El precio de la acción de Summit ha mostrado una alta volatilidad en los últimos meses debido a los avances en su línea de investigación de tratamientos. El precio actual de $21.91 sugiere que las expectativas del mercado son optimistas respecto a sus desarrollos clínicos.
+
+2. **Índice NASDAQ Biotechnology (NBI)**  
+   El NBI es un índice clave para evaluar el comportamiento del sector biotecnológico. Las acciones de Summit tienen una correlación significativa con este índice, lo que indica que las tendencias del sector en general influyen directamente en su precio.
+
+3. **Índice de Volatilidad (VIX)**  
+   El índice refleja la volatilidad general del mercado, lo que puede impactar las opciones sobre acciones, incluidas las biotecnológicas.
+
+# Derivados {#derivados}
+Para el análisis de la opción SMMT Oct 2024 12.000 call, se utilizó tanto el modelo de Black-Scholes como el modelo binomial. Se inició el proceso en Google Colab, empleando el cuaderno ArbitrajeBlackScholes.ipynb bajo un enfoque de un solo periodo.
+
+### Parámetros:
+- Último precio de la opción: $9.70
+- Precio de ejercicio (k): $12.00
+- Precio del activo subyacente (S0): $21.91
+- Factor de crecimiento (u): 1.164
+- Factor de decrecimiento (d): 0.952
+
+# Resultados y Conclusiones {#resultados-y-conclusiones}
+Los resultados del análisis muestran que la volatilidad en el precio de las acciones de Summit afecta significativamente el valor de la opción SMMT Oct 2024 12.000 call. Si el precio de la acción supera el precio de ejercicio de $12 al vencimiento, la opción generará beneficios significativos para el inversor.
+
+# Bibliografía {#bibliografia}
+- Federal Reserve Bank of St. Louis. (2024). 4-Week Treasury Bill Secondary Market Rate.
+- Yahoo Finance. (2024). Summit Therapeutics Inc. (SMMT) stock quote and data.
+- Investing.com. (2024). U.S. Treasury 4-Week Bill Auction Results.
